@@ -1,0 +1,562 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670090325894584, "dur":3238, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090325897854, "dur":300, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670090325898266, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670090325898323, "dur":490, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670090325898895, "dur":1898, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090325900793, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756177, "dur":248, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756425, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756450, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756456, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756479, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756483, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756499, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756503, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756517, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756560, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327756608, "dur":6489, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670090325899952, "dur":879, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090325900835, "dur":12355, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090325913214, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670090325913244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090325914786, "dur":887, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670090325915683, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670090325915791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090325916036, "dur":170376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670090326086417, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326086570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326086582, "dur":354381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326441058, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326441195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326441208, "dur":39397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326480778, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326480947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326480964, "dur":133830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326614943, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326615052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326615065, "dur":250606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326865805, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326865919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326865931, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326867841, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326868209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326868235, "dur":35239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326903625, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326903752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326903768, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326905926, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326906054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326906069, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326908099, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326908228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326908242, "dur":51539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326959934, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326960059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326960131, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326961578, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090326961885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090326961897, "dur":45808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327007851, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327007973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327007987, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327009541, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327009652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327009665, "dur":199917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327209717, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327209833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327209846, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327213432, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327213555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327213575, "dur":37044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327250770, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327250888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327250902, "dur":44083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327295084, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327295347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327295414, "dur":50405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327345963, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327346134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327346146, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327347740, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327348005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327348014, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327349537, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327349808, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327349821, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327351452, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327351788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327351801, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327354035, "dur":2777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327356825, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327356843, "dur":17927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327374893, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327375316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327375326, "dur":3509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327378966, "dur":2051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327381028, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327381044, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327383867, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327383975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327384044, "dur":112221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327496404, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327496793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327496806, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327498316, "dur":517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327498840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327498854, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327500432, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327500774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327500786, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327502262, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327502591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327502603, "dur":31709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327534439, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327534821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327534882, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327536432, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327536850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327536863, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327538228, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327538341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327538353, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327539965, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327540072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327540084, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327545451, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327545570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327545583, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327546887, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327546992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327547003, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327548337, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327548503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327548515, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327550431, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327550556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327550570, "dur":2742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327553458, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327553575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327553642, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327555199, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327555308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327555321, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327557046, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327557141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327557153, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327558955, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327559081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327559095, "dur":21170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327580423, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327580538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327580551, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327582406, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327582522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327582536, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327584376, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327584488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327584560, "dur":15568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327600268, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327600369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327600382, "dur":4710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327605238, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327605354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327605367, "dur":3922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327609447, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327609574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327609588, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327611671, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327611801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327611814, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327615033, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327615157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327615171, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327617089, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327617204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327617218, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327619159, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327619278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327619291, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327621781, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327621888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327621901, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327623720, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327623833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327623849, "dur":19021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327642977, "dur":939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327643924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327643937, "dur":10175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670090327654254, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1670090327654592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327669735, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1670090327671562, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1670090327671667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327671709, "dur":15940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1670090327687815, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1670090327687934, "dur":28, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327687973, "dur":35422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1670090327723563, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1670090327723688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327723769, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1670090327728241, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1670090327728629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327728640, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1670090327730325, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1670090327730441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327730451, "dur":3856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1670090327734456, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1670090327734568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327734578, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1670090327736247, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1670090327736594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670090327736602, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1670090327738282, "dur":17895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325899991, "dur":876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325900867, "dur":12330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325913215, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670090325913300, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325913386, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325916730, "dur":5176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670090325921957, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325922052, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325922123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325922137, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325924974, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325925048, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325925479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325925489, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325929066, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325929144, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325929235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325929247, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325931139, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325931221, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325931293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325931424, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1670090325933696, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670090325933740, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325933863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325933876, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1670090325935588, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090325935637, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325935692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325936066, "dur":18816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090325954931, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090325955082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090325955426, "dur":485470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326441018, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326441116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326441128, "dur":80106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326521410, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326521578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326521596, "dur":43739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326565448, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326565561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326565570, "dur":49216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326614942, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326615059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326615069, "dur":139416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326754620, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326754721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326754734, "dur":129274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326884147, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326884765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326884782, "dur":62349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326947294, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326947423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326947437, "dur":12336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326959933, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090326960034, "dur":22, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090326960128, "dur":42139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327002429, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327002560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327002575, "dur":35014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327037775, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327037918, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327037944, "dur":151517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327189606, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327189723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327189737, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327191126, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327191278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327191291, "dur":53749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327245185, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327245316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327245330, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327247122, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327247252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327247266, "dur":98654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327346019, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327346669, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327346679, "dur":11851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327358649, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327358988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327359000, "dur":22543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327381661, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327381784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327381797, "dur":7612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327389550, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327389658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327389671, "dur":237951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327627764, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327627893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327627907, "dur":14726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327645765, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327646221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327646234, "dur":6750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327653121, "dur":37813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327690947, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327692514, "dur":3337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670090327696005, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670090327696122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327696134, "dur":30053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1670090327726306, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670090327726416, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327726439, "dur":9181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670090327735945, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670090327736266, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670090327736278, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1670090327739214, "dur":16979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325900092, "dur":784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325900877, "dur":12317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325913214, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1670090325913315, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325913419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325917235, "dur":4660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1670090325921950, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1670090325922013, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325922099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325922117, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1670090325924412, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670090325924468, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325924551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325925597, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670090325929520, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670090325929563, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325929673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325930228, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670090325932249, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670090325932315, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325932392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325932409, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670090325934050, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1670090325934082, "dur":447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325934543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325934557, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1670090325937432, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090325937493, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325937556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325937565, "dur":60703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090325998335, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090325998544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090325998560, "dur":570739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326573831, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326574047, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326574125, "dur":88018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326662302, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326662399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326662411, "dur":5512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326668092, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326668274, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326668287, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326671513, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326671651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326671666, "dur":5790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326677629, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326678587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326678600, "dur":2035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326680764, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326680858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326680870, "dur":76088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326757107, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326757251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326757314, "dur":122132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326879606, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326879732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326879748, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326881645, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326881751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326881763, "dur":66151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326948039, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090326948163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090326948175, "dur":185867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327134193, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327134324, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327134351, "dur":108447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327242928, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327243058, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327243072, "dur":51765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327295067, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327295298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327295312, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327297443, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327297863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327297878, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327299538, "dur":1132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327300682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327300697, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327302869, "dur":1969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327304849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327304866, "dur":41532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327346503, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327347657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327347668, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327349471, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327349815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327349824, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327351462, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327351790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327351801, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327353747, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327354452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327354468, "dur":3377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327357981, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327358349, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327358366, "dur":16179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327374740, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327375136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327375149, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327377014, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327377556, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327377587, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327379140, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327379464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327379477, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327382563, "dur":1106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327383680, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327383695, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327386471, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327386580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327386593, "dur":94823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327481551, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327481660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670090327481673, "dur":274297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670090327756127, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1670090327756131, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325900198, "dur":687, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325900886, "dur":12326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325913214, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670090325913321, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325913438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325918697, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1670090325922323, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1670090325922384, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325922645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325922662, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1670090325925268, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670090325925303, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325925355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325925448, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670090325929313, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1670090325929369, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325929419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325929431, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1670090325931149, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670090325931207, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325931282, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325931416, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670090325933702, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1670090325933741, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325933855, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325933868, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1670090325935540, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090325935602, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325935676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325936052, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090325939972, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670090325940063, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325940152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325940166, "dur":7485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670090325947732, "dur":2112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670090325949857, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325949872, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670090325954193, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1670090325954255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325954616, "dur":33239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1670090325987904, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090325988119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090325988191, "dur":90401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326078720, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326078861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326078873, "dur":362361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326441374, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326441594, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326441610, "dur":73781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326515577, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326515729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326515747, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326517559, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326517710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326517727, "dur":47077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326565236, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326565372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326565388, "dur":63477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326629045, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326629192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326629204, "dur":86017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326715441, "dur":3303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326718758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326718777, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326721039, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326721209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326721221, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326722995, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326723153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326723192, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326725644, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326725792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326725808, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326728053, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326728199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326728214, "dur":56121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326784477, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326784584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326784622, "dur":67216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326851993, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326852121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326852136, "dur":43148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326895424, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326895562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326895575, "dur":67035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326962732, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326962839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326962851, "dur":19306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326982324, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326982449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326982463, "dur":7619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326990248, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090326990366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090326990380, "dur":61914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327052805, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327052974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327052988, "dur":156611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327209720, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327209848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327209858, "dur":51239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327261250, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327261397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327261411, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327264284, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327264395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327264409, "dur":458968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670090327723560, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670090327723696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327723775, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670090327726010, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670090327726128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327726142, "dur":2426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670090327728683, "dur":1745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1670090327730436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327730449, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1670090327732115, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670090327732247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327732258, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670090327734590, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1670090327734691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327734699, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1670090327736239, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles W:/Apple Pie/Apple Pie_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1670090327736344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670090327736352, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"W:/Apple Pie/Apple Pie_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1670090327738207, "dur":17978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670090327766730, "dur":5915, "ph":"X", "name": "ProfilerWriteOutput" }
+,
